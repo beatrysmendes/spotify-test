@@ -1,0 +1,22 @@
+body {
+    background: #000000;
+}
+
+header {
+    height: 48px;
+    width: 100vw;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    padding: 0px 16px;
+}
+
+.logo {
+    width: 36px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+}
